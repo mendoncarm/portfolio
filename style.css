@@ -1,0 +1,201 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%
+
+}
+.container {
+    display: grid;
+    grid-auto-flow: column; /*como o navegador vai divir as divs filhas dela, se for 2 divs, ele vai divir assim*/
+    grid-auto-columns: 1fr;
+}
+#header {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#menu li {
+    display: inline-block;
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;   
+    text-align: center;
+    color: #070F18;
+    margin-top: 49px;
+
+}
+#menu {
+    text-align: right;
+}
+#menu a {
+    color: black;
+}
+#buttonCta {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 10px 25px 10px 25px;
+    border:0;
+}
+a {
+    color:black;
+    text-decoration: none; /*sem o underline*/
+}
+#headerCta h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000;
+}
+#headerCta p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+
+}
+img {
+    border-radius: 50px;
+}
+#headerImg {
+    margin-left: 42px;  
+
+}
+#headerImg img {
+    width: 100%;
+}
+.headerLogo {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#headerClientText  {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #070F18;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+h2.red{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;   
+    color: #F75C4E;
+}
+h1.black{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #000000;
+
+}
+p.escrita {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+
+}
+.headerIcons {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2.sub {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+    margin-top: 30px;
+
+}
+.textCenter {
+    text-align:center;
+}
+#contact {
+    margin-top: 100px;
+}
+#email {
+    background: #F5F6FB;
+    border-radius: 50px;
+    border:0;
+    width:70%;
+    padding: 15px 25px 15px 25px;
+}
+#button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1F7CFF;
+    border-radius: 50px;
+    padding: 15px 30px 15px 30px;
+    border:0;
+}
+#headerImg2 {
+    margin-bottom: 180px;
+}
+#job2 {
+    text-align:left;  
+    margin: 0; 
+}
+#job {
+    margin: 0;
+}
+.exemples img {
+    background: url(modelo-de-site-corporativo-responsivo-gratuito_52524-0-original.jpg);
+    border-radius: 30px;
+    width: 100%;
+}
+#final {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+
+
+
+
+
+
+
+

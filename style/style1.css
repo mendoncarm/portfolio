@@ -1,0 +1,101 @@
+.bible-header-custom {
+    display: grid;
+    align-content: center;
+    width: fit-content;
+    padding: 4px 40px;
+    position: absolute;
+    top: 153px;
+    left: 30px;
+    background-color: #FF0F00;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 55px;
+  }
+  
+  .music-slide {
+    text-shadow: 1px 1px 100px rgba(300, 200, 100, 50.5);
+  }
+  
+  desc {
+    font-size: 35px;
+  }
+  
+  .bible_slide {
+    display: grid;
+    padding: 30px;
+    width: fit-content;
+    height: 150px;
+    border-radius: 20px;
+    color: #000;
+    background-color: #00000099;
+  }
+  
+  .bible_slide > span {
+    display: none;
+  }
+  
+  @keyframes fade-in {
+    from {opacity: 0.0}
+    to   {opacity: 1.0}
+  }
+  
+  @keyframes fade-out {
+    from {opacity: 1.0}
+    to   {opacity: 0.0}
+  }
+  
+  desc, ctt, .music_slide {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }.bible-header-custom {
+    display: grid;
+    align-content: center;
+    width: fit-content;
+    padding: 4px 40px;
+    position: absolute;
+    top: 153px;
+    left: 30px;
+    background-color: #FF0F00;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 55px;
+  }
+  
+  .music-slide {
+    text-shadow: 1px 1px 100px rgba(300, 200, 100, 50.5);
+  }
+  
+  desc {
+    font-size: 35px;
+  }
+  
+  .bible_slide {
+    display: grid;
+    padding: 30px;
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    color: #000;
+    background-image: url(https://www.ufmt.br/ocs/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image03_grd.png)
+  }
+  
+  .bible_slide > span {
+    display: none;
+  }
+  
+  @keyframes fade-in {
+    from {opacity: 0.0}
+    to   {opacity: 1.0}
+  }
+  
+  @keyframes fade-out {
+    from {opacity: 1.0}
+    to   {opacity: 0.0}
+  }
+  
+  desc, ctt, .music_slide {
+    animation-name: fade-in;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+  }
